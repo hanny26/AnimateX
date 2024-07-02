@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DragonAnimation </title>
+    <link rel="icon" href="https://i.etsystatic.com/15457299/r/il/1b6cb4/5804417845/il_570xN.5804417845_t86y.jpg" type="image/x-icon">
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #14084c;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="https://cdn.pixabay.com/photo/2024/02/15/14/57/animal-8575560_640.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="https://etimg.etb2bimg.com/photo/100088163.cms" alt=""></div>
+            <div class="item" style="--position: 3"><img src="https://cdn.pixabay.com/photo/2023/01/07/09/20/ai-generated-7702855_640.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="https://i.pinimg.com/736x/28/85/04/288504eac785eb0a849488ddd5287550.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="https://t3.ftcdn.net/jpg/05/54/12/28/360_F_554122808_70uodDBTFvbJJjM8Fu9Vy24WHK614SXh.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="https://storage.googleapis.com/pod_public/1300/167915.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="https://wallpapers.com/images/hd/cute-dragon-pictures-0isjv2y1kelb3xeo.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbCLhWAEcKDFFJWZliYitygdMkPkokKQKqFA&s" alt=""></div>
+            <div class="item" style="--position: 9"><img src="https://liu.se/dfsmedia/dd35e243dfb7406993c1815aaf88a675/76528-50065/ai-genererad-bild-av-sara-laathen-till-ai-sidornas-toppbild?as=1&w=640&h=360&cr=1&crw=640&crh=360&bc=%23ffffff" alt=""></div>
+            <div class="item" style="--position: 10"><img src="https://i.etsystatic.com/39938216/r/il/430cba/4488972880/il_1080xN.4488972880_3h3k.jpg" alt=""></div>
+        </div>
+        <div class="content">
+            <h1 data-content="Curious">
+                Curious
+          </h1>
+            <div class="author">
+                <h2>Hanny Vyas</h2>
+                <p><b>Web Design</b></p>
+                <p>
+                    <a href="https://github.com/hanny26" target="_blank">Github |</a>
+                    <a href="https://www.linkedin.com/in/hannyvyas/" target="_blank">Linkedin</a>
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
