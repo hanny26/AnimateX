@@ -13,14 +13,14 @@
 
 ## Demo 📺
 
-Check out the live demo [here](#) to see AnimateX in action!
+Check out the live demo [https://animate-x-gamma.vercel.app/](#) to see AnimateX in action!
 
 ## Installation 📥
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/AnimateX.git
+   git clone https://github.com/hanny26/AnimateX.git
    ```
 
 2. **Navigate to the project directory:**
@@ -68,7 +68,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Connect with Me 🌐
 
 - **GitHub**: [Hanny Vyas](https://github.com/hanny26)
-- **LinkedIn**: [Hanny Vyas](https://www.linkedin.com/in/hannyvyas/)
+- **LinkedIn**: [Hanny Vyas](https://www.linkedin.com/in/hanny-vyas/)
 
 Enjoy the animations and happy coding! 🎨✨
 
